@@ -17,12 +17,23 @@ public class Team {
     private ArrayList <Doctor> doctors;
     private ArrayList <Patient> patients;
 
-    public Team(int id , int idConsultantDoctor) {
-        this.id = id;
-        this.patients = new ArrayList<>();
-        this.doctors = new ArrayList<>();
-        
+    public int getId() {
+        return id;
     }
+
+    public ConsultantDoctor getTeamLeader() {
+        return teamLeader;
+    }
+
+    public ArrayList<Doctor> getDoctors() {
+        return doctors;
+    }
+
+    public ArrayList<Patient> getPatients() {
+        return patients;
+    }
+
+    
     
     
     

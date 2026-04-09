@@ -14,8 +14,22 @@ import java.util.ArrayList;
  */
 public class JuniorDoctor extends Doctor{
 
-    public JuniorDoctor(Team team, int id, ArrayList<Appointment> appointments, ArrayList<Patient> patients) {
-        super(team, id, appointments, patients);
+    public int getId() {
+        return id;
     }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public ArrayList<Appointment> getAppointments() {
+        return appointments;
+    }
+
+    public ArrayList<Patient> getPatients() {
+        return patients;
+    }
+
+   
     
 }

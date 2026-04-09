@@ -17,12 +17,9 @@ public abstract class Doctor {
     protected ArrayList <Appointment> appointments; 
     protected ArrayList <Patient> patients;
 
-    public Doctor(Team team,int id  ) {
-        this.id = id;
-        this.team = team;
-        this.appointments = new ArrayList<>();
-        this.patients = new ArrayList<>();
-    }
+    
+
+    
     
     
     

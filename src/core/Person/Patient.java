@@ -19,4 +19,6 @@ public class Patient {
     private ArrayList <Appointment> appointments;
     private ArrayList <Doctor> doctors;
     
+    
+    
 }

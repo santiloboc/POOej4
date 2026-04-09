@@ -13,11 +13,29 @@ import java.util.ArrayList;
 public class ConsultantDoctor extends Doctor{
     private Team leaderOf;
 
-    public ConsultantDoctor(Team leaderOf, Team team, int id) {
-        super(team, id);
-        this.leaderOf.addTeam(this);
-        
+    public Team getLeaderOf() {
+        return leaderOf;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public ArrayList<Appointment> getAppointments() {
+        return appointments;
+    }
+
+    public ArrayList<Patient> getPatients() {
+        return patients;
+    }
+
+   
+
+    
     
     
     
