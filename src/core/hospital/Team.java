@@ -33,6 +33,12 @@ public class Team {
         return patients;
     }
 
+    public Team(int id, ConsultantDoctor teamLeader) {
+        this.id = id;
+        this.teamLeader = teamLeader;
+        
+    }
+
     
     
     

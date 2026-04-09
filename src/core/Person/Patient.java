@@ -18,6 +18,26 @@ public class Patient {
     private Ward ward;
     private ArrayList <Appointment> appointments;
     private ArrayList <Doctor> doctors;
+
+    public int getId() {
+        return id;
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public Ward getWard() {
+        return ward;
+    }
+
+    public ArrayList<Appointment> getAppointments() {
+        return appointments;
+    }
+
+    public ArrayList<Doctor> getDoctors() {
+        return doctors;
+    }
     
     
     
