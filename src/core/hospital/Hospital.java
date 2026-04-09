@@ -4,10 +4,15 @@
  */
 package core.hospital;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author sloba
  */
 public class Hospital {
+    private ArrayList<Team> teams;
+    private ArrayList<Ward> wards;
+    
     
 }
