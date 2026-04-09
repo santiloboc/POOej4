@@ -13,6 +13,14 @@ import java.util.ArrayList;
 public class Hospital {
     private ArrayList<Team> teams;
     private ArrayList<Ward> wards;
+
+    public ArrayList<Team> getTeams() {
+        return this.teams;
+    }
+
+    public ArrayList<Ward> getWards() {
+        return this.wards;
+    }
     
     
 }
